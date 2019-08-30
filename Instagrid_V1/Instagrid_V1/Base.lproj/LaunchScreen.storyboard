@@ -18,18 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Instagrid_lauchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="IOS-kw-KX1" userLabel="Instagrid_launchScreen">
-                                <rect key="frame" x="92" y="413" width="230" height="70"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Instagrid_launchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="gt0-ET-MZj">
+                                <rect key="frame" x="117" y="408" width="180" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="230" id="KZa-Km-UUb"/>
-                                    <constraint firstAttribute="height" constant="70" id="aOJ-Ua-wwQ"/>
+                                    <constraint firstAttribute="width" constant="180" id="Nfu-cl-QV1"/>
+                                    <constraint firstAttribute="height" constant="80" id="lFq-Iu-WPV"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.71941357851028442" green="0.84181588888168335" blue="0.89412730932235718" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="IOS-kw-KX1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="APm-s6-awR"/>
-                            <constraint firstItem="IOS-kw-KX1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="y5a-iY-7VP"/>
+                            <constraint firstItem="gt0-ET-MZj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="72h-Mh-uf9"/>
+                            <constraint firstItem="gt0-ET-MZj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="qT7-wD-5zi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -40,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Instagrid_lauchScreen" width="400" height="126"/>
+        <image name="Instagrid_launchScreen" width="400" height="126"/>
     </resources>
 </document>
