@@ -58,16 +58,48 @@
 		8E1C51FF2316E47100EEA047 /* Instagrid_V1 */ = {
 			isa = PBXGroup;
 			children = (
-				8E1C52002316E47100EEA047 /* AppDelegate.swift */,
-				8E1C52022316E47100EEA047 /* ViewController.swift */,
+				8E1C5219231936D400EEA047 /* Controller */,
+				8E1C5218231936CC00EEA047 /* View */,
+				8E1C5217231936A300EEA047 /* Model */,
+				8E1C521A2319467500EEA047 /* Supporting Files */,
+			);
+			path = Instagrid_V1;
+			sourceTree = "<group>";
+		};
+		8E1C5217231936A300EEA047 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E1C5218231936CC00EEA047 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				8E1C52042316E47100EEA047 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E1C5219231936D400EEA047 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E1C52022316E47100EEA047 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E1C521A2319467500EEA047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				8E1C52072316E47300EEA047 /* Assets.xcassets */,
 				8E1C52122316E49400EEA047 /* Delm-Medium.otf */,
 				8E1C52142316E4A000EEA047 /* ThirstySoftRegular.otf */,
 				8E1C52092316E47300EEA047 /* LaunchScreen.storyboard */,
 				8E1C520C2316E47300EEA047 /* Info.plist */,
+				8E1C52002316E47100EEA047 /* AppDelegate.swift */,
 			);
-			path = Instagrid_V1;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6S4M46W7Q;
-				INFOPLIST_FILE = Instagrid_V1/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Instagrid_V1/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6S4M46W7Q;
-				INFOPLIST_FILE = Instagrid_V1/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Instagrid_V1/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
