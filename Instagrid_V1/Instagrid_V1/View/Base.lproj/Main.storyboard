@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,11 +20,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Instagrid_V1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Instagrid" translatesAutoresizingMaskIntoConstraints="NO" id="ZxY-pM-0Eq">
-                                <rect key="frame" x="129.66666666666666" y="52" width="116" height="30"/>
+                                <rect key="frame" x="102" y="28" width="116" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="UGD-rn-cu8"/>
                                     <constraint firstAttribute="width" constant="116" id="d8z-nG-wHo"/>
@@ -43,7 +43,7 @@
                                 </variation>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Layout 2" translatesAutoresizingMaskIntoConstraints="NO" id="Baz-Rd-ckP">
-                                <rect key="frame" x="147.66666666666666" y="576" width="80" height="80"/>
+                                <rect key="frame" x="120" y="454" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Baz-Rd-ckP" secondAttribute="height" multiplier="1:1" id="R9s-F3-9cu"/>
                                     <constraint firstAttribute="width" constant="80" id="TJZ-AQ-IWM"/>
@@ -62,7 +62,7 @@
                                 </variation>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Layout 1" translatesAutoresizingMaskIntoConstraints="NO" id="WIx-tY-3lR">
-                                <rect key="frame" x="37.666666666666657" y="576" width="80" height="80"/>
+                                <rect key="frame" x="10" y="454" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="Ncw-kY-4PP"/>
                                     <constraint firstAttribute="width" secondItem="WIx-tY-3lR" secondAttribute="height" multiplier="1:1" id="nGn-gq-OSD"/>
@@ -81,7 +81,7 @@
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe up to share " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHj-ru-tA2">
-                                <rect key="frame" x="105" y="215" width="165" height="29"/>
+                                <rect key="frame" x="77.5" y="93" width="165" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="EgB-gb-laZ"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="165" id="TOb-gL-gJg"/>
@@ -103,7 +103,7 @@
                                 </variation>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Selected" translatesAutoresizingMaskIntoConstraints="NO" id="Rnl-l8-Div">
-                                <rect key="frame" x="147.66666666666666" y="576" width="80" height="80"/>
+                                <rect key="frame" x="120" y="454" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="G2p-tb-0CC"/>
                                     <constraint firstAttribute="width" secondItem="Rnl-l8-Div" secondAttribute="height" multiplier="1:1" id="ZoF-gF-9fv"/>
@@ -122,7 +122,7 @@
                                 </variation>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1M6-jv-cmF">
-                                <rect key="frame" x="37.666666666666657" y="256" width="300" height="300"/>
+                                <rect key="frame" x="10" y="134" width="300" height="300"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MMQ-Fw-tKp">
                                         <rect key="frame" x="15" y="15" width="127.5" height="127.5"/>
@@ -178,7 +178,7 @@
                                 </variation>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Layout 3" translatesAutoresizingMaskIntoConstraints="NO" id="WHu-0d-Lou">
-                                <rect key="frame" x="257.66666666666669" y="576" width="80" height="80"/>
+                                <rect key="frame" x="230" y="454" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WHu-0d-Lou" secondAttribute="height" multiplier="1:1" id="ALQ-1h-WHO"/>
                                     <constraint firstAttribute="width" constant="80" id="gAZ-wc-FkK"/>
@@ -197,7 +197,7 @@
                                 </variation>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Arrow Up" translatesAutoresizingMaskIntoConstraints="NO" id="Kru-6F-yQI">
-                                <rect key="frame" x="182.66666666666666" y="192" width="10" height="13"/>
+                                <rect key="frame" x="155" y="70" width="10" height="13"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="13" id="DgK-Xs-kzq"/>
                                     <constraint firstAttribute="width" constant="10" id="rMl-8G-K5o"/>
@@ -284,12 +284,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Arrow Up" width="4.6666665077209473" height="3.3333332538604736"/>
-        <image name="Instagrid" width="41.333332061767578" height="13"/>
-        <image name="Layout 1" width="26.666666030883789" height="26.666666030883789"/>
-        <image name="Layout 2" width="26.666666030883789" height="26.666666030883789"/>
-        <image name="Layout 3" width="26.666666030883789" height="26.666666030883789"/>
-        <image name="Plus" width="13.333333015441895" height="13.333333015441895"/>
-        <image name="Selected" width="26.666666030883789" height="26.666666030883789"/>
+        <image name="Arrow Up" width="4.5" height="3.5"/>
+        <image name="Instagrid" width="41.5" height="13"/>
+        <image name="Layout 1" width="27" height="27"/>
+        <image name="Layout 2" width="27" height="27"/>
+        <image name="Layout 3" width="27" height="27"/>
+        <image name="Plus" width="13.5" height="13.5"/>
+        <image name="Selected" width="27" height="27"/>
     </resources>
 </document>
